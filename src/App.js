@@ -1,5 +1,14 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage/HomePage";
+
 function App() {
-  return <div className="App text-primary">Weloky</div>;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="" element={<HomePage />}></Route>
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
