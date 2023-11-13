@@ -55,6 +55,7 @@ const NavMenu = () => {
     console.log("click ", e);
     setCurrent(e.key);
   };
+  console.log(current);
   return (
     <ConfigProvider
       theme={{

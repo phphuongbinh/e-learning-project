@@ -4,7 +4,7 @@ import { Tooltip } from "antd";
 import NavMenu from "./Menu";
 const Header = () => {
   return (
-    <div className="flex items-center h-16 gap-5 px-5 text-white bg-black">
+    <div className="flex items-center h-16 gap-5 px-5 text-white bg-transparent fixed top-0 left-0 right-0 z-50">
       {/* Toggle Button */}
       <MenuOutlined className="cursor-pointer" />
 
